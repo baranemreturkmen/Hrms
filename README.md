@@ -1,4 +1,4 @@
-# Hrms
+# Hrms Veri Tabanı Olusturulması
 Engin Demiroğun düzenlemiş olduğu (Java &amp; React) Yazılım Geliştirici Yetiştirme Kampında verilen ödev6'yı içermektedir. Ödev içeriği gereği ödev6'da bizlere sunulan şartları sağlayabilecek bir veritabanı oluşturulmuştur. Ayrıca ödevin üçüncü kısmında, ödevin ikinci kısmında oluşturan veritabanında bulunan ve genel iş pozisyonlarını listeleyecek bir api yazılmıştır. 
 
 Veritabanı özelinde konuşmak gerekirsek eğer, ödevde belirtilen 3 kullanıcınında ortak özelliklerini kapsayacak bir Users tablosu oluşturuldu. Users tablosu şirketlerin email, password, activation gibi bilgilerini içermekte. Burada activation ile kast edilen üyelerin sistemde üyeliklerini sonlandırmaları halinde bilgilerinin sistemden silinmesini istemiyoruz sadece Activation parametresini False olarak ayarlıyoruz. Activation parametresi True olan kullancılarımızın aktif bir şekilde hrms sistemini kullandıklarını
