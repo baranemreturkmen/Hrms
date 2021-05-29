@@ -7,7 +7,7 @@ import kodlamaio.hrms.entities.concretes.Position;
 
 public interface PositionDao extends JpaRepository<Position,Integer>{
 	
-	//Bir interface başka bir interface'i implemente eder bu unutulmasın.
+	//Bir interface başka bir interface'i extend eder bu unutulmasın.
 	//Burada JpaRepository verdiğimiz veritipi için ki burada verdiğimiz
 	//veritipi Entity anotasyonuna sahip Position oluyor. positions tablosu
 	//için primarykey'in veritipi ne ise onu vermemiz lazım ki JpaRepository
